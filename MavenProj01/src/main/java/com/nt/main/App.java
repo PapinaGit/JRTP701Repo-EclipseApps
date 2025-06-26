@@ -14,6 +14,7 @@ public class App {
 	}
 	
 	public int mul(int p, int q) {
+		System.out.println("Multiplication method");
 		return p*q;
 	}
 	
