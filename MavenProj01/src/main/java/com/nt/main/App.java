@@ -14,7 +14,9 @@ public class App {
 	}
 	
 	public int mul(int p, int q) {
-		return p*q;
+		System.out.println("mul() method");
+		int c = p*q;
+		return c;
 	}
 	
 	
