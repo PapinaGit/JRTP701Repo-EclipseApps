@@ -18,7 +18,18 @@ public class App {
 		System.out.println("mul() method");
 		return p * q;
 	}
+	
+	public int findNameLength(String name) {
+		System.out.println("App.findNameLength() bug 123 fixing is going on");
+		return name.length();
+	}
 
+	public String reverse(String name) {
+		StringBuffer sb = new StringBuffer(name);
+		return sb.reverse().toString();
+	}
+	
+	
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 
