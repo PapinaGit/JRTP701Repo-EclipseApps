@@ -17,7 +17,7 @@ public interface ICourseMgmtService {
 	
 	public List<SearchResults> showCoursesByFilters(SearchInputs inputs);
 	
-	public void generatePdfReport(SearchInputs inputs, HttpServletResponse res);
-	public void generateExcelReport(SearchInputs inputs, HttpServletResponse res);
+	public void generatePdfReport(SearchInputs inputs, HttpServletResponse res)throws Exception;
+	public void generateExcelReport(SearchInputs inputs, HttpServletResponse res)throws Exception;
 
 }
