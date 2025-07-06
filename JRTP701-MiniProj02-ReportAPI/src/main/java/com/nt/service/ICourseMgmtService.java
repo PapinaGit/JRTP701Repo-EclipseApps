@@ -1,6 +1,5 @@
 package com.nt.service;
 
-import java.net.http.HttpResponse;
 import java.util.List;
 import java.util.Set;
 
@@ -19,5 +18,8 @@ public interface ICourseMgmtService {
 	
 	public void generatePdfReport(SearchInputs inputs, HttpServletResponse res)throws Exception;
 	public void generateExcelReport(SearchInputs inputs, HttpServletResponse res)throws Exception;
+	
+	public void generateExcelReportAllData(HttpServletResponse res) throws Exception;
+	public void generatePdfReportAllData(HttpServletResponse res) throws Exception;
 
 }
