@@ -15,7 +15,7 @@ public class BootMailTestRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		String msg = service.purchase(new String[] {"shirt","trouser","hat"}, new double[] {5000.0,6000.0,2000.0},
-									  new String[] {"papinarana45@gmail.com","papinarana08@gmail.com","mailmesubrata1997@gmail.com"});
+									  new String[] {"papinarana45@gmail.com","papinarana08@gmail.com","mailmesubrata1994@gmail.com"});
 
 		System.out.println(msg);
 	}
